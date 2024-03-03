@@ -215,8 +215,8 @@ input, select, textarea {
 
 	h1 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 5rem;
-		font-weight: 700;
+		font-size: 3rem;
+		font-weight: 500;
 		letter-spacing: -0.05em;
 		line-height: 1.1;
 		margin: 0 0 1.5rem 0;
@@ -2508,11 +2508,11 @@ input, select, textarea {
 			}
 
 		.image.fill {
-			height: 100%;
-			left: 0;
+			height: 70%;
+			left: 1;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			width: 70%;
 		}
 
 			.image.fill img {
@@ -2931,7 +2931,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		margin: -1.25rem 0 0 -1.25rem;
-		width: calc(100% + 1.25rem);
+		width: calc(80% + 1.25rem);
 	}
 
 		.gallery a {
@@ -3264,7 +3264,8 @@ input, select, textarea {
 					font-size: 0.8rem;
 					letter-spacing: 0.175em;
 					line-height: 2.5;
-					text-transform: uppercase;
+					text-align: justify;
+					/* text-transform: uppercase; */
 				}
 
 				#wrapper section > header ul.actions {
@@ -3348,7 +3349,7 @@ input, select, textarea {
 			}
 
 				#wrapper > section.intro > header {
-					padding-top: 4rem;
+					padding-top: 2rem;
 					width: 100%;
 				}
 
@@ -3394,7 +3395,7 @@ input, select, textarea {
 			}
 
 		#wrapper section {
-			margin: 7.5rem 0 0 0;
+			margin: 3.5rem 0 0 0;
 		}
 
 			#wrapper section > header {
